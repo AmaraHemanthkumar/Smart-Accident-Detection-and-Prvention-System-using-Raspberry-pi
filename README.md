@@ -5,3 +5,5 @@ The first being the detection mechanism. It incorporates the safety measures of 
 
 I also added the false alarm to the system so that if any case we can say that the accident is false by switching ON it. I made the code in order to work faster and first priority is for accident detection .Since the project is wired in the car, our project is secured and the message sending security is depending on the telecommunication. The results of all the sensors are accurate if in the position implemented.
 
+# Proposed Methodology:
+### I am using proteus software in this project, which can show the simulation type of the it.
