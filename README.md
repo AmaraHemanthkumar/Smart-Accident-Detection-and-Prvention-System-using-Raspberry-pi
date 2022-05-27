@@ -20,12 +20,14 @@ I also added the false alarm to the system so that if any case we can say that t
 
 First our program will analyze the whether accident detected or not by vibration sensor condition so then we can check for the prevention measures. If the accident detected then the GSM module along with GPS module which is GSM module 900 will be activate and send the alert message by  to the dear and emergency numbers which is done by specific code. The LCD will warn the accident detection and also information sending in the display so that the victim will have a hope and stay strong.
 
-There is possibility for the some other situations like no one is injured or no medical service is required . So we added a false_switch which is connected to the raspberry pi which send the safe massage to the contacts saved in the code . If the switch is turned ON and then the accident happened then the message will be safe only, so to over come that we will display to driver through LCD display to turn off the false switch ,only if it is ON. And also indecates by red led that false_alram  switch is ON. The LCD display shows every thing what is happening in the system which gives the confirmation to driver.
+There is possibility for the some other situations like no one is injured or no medical service is required . So we added a false_switch which is connected to the raspberry pi which send the safe massage to the contacts saved in the code . If the switch is turned ON and then the accident happened then the message will be safe only, so to over come that we will display to driver through LCD display to turn off the false switch ,only if it is ON. And also indecates by red led that false_alarm  switch is ON. The LCD display shows every thing what is happening in the system which gives the confirmation to driver.
 The emergency number and dear people numbers will be saved in the code of the raspberry pi which is stored in the SD card.
  
 For the accident prevention purpose, we will seize the car motor if the alcohol is detected , or seatbelt not detected. This can be done by the relay which act like switch between the power and the motor. The preventions measures takes status from the Mq3 gas sensor which detects the alcohol and the seat belt detection by IR sensor .And the buzzer will also make alert sound that the driver is unconditional or leads danger to drive.
 
 If alcohol is detected then the result will be sent in message through GSM module ,and also it will inform the driver that the motor is going to stop due to alcohol detected. Same with the IR sensor detects no seatbelt then it will inform the driver that the motor is going to stop due to seatbelt is not detected and also suggest to wear it. Even if the driver is in the safe mode our code will suggest some safety measures through the LCD display.
+
+Every action which is happening in the system will be displayed in the LCD display and also in the virtual terminal. The destination device will recive the GPS loction and accident status which is shown in the virtual terminal.
 
 In this way we over every possible situation that could happen and our code will check, continuously the condition of the sensors . But still there is a possible to trick the sensors , like keeping the seatbelt from back side ,etc. Except that all other situations are considered in the code.
 
@@ -62,4 +64,13 @@ This system is an immediate aid system, Monitors all hazards and threats. The Al
 
 
 ##Results screen shots
-![image](https://user-images.githubusercontent.com/83164272/170737693-44c21409-4e86-4b4e-b210-68fea749253e.png)
+![image](https://user-images.githubusercontent.com/83164272/170740446-9b238b4f-cc15-4670-8904-79073f400d08.png)
+
+![image](https://user-images.githubusercontent.com/83164272/170740688-8c47df39-a126-4028-9f74-d4f0c6440db1.png)
+
+![image](https://user-images.githubusercontent.com/83164272/170740551-c3560f75-29f7-4480-913d-e5a1f3d0b961.png)
+
+
+
+
+
