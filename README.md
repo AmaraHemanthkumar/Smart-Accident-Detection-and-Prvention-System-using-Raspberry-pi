@@ -14,6 +14,8 @@ I also added the false alarm to the system so that if any case we can say that t
 • Detection of seat belt system might be really helpful in avoiding fatal injuries when an accident might occur.
 • With active location tracking, it would not be a problem to detect where the accident took place or the location where any drunken driving instances occur.
 
+###NOTE:
+This is well developed project of the existing project. All kind of possible scenarious are considered in the project.
 
 # Proposed Methodology:
 ### I am using proteus software in this project, which can show the simulation type of the it.
